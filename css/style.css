@@ -351,7 +351,7 @@ h2 {
     flex-wrap: wrap;
 }
 
-.buttons {
+.button {
     font-family: 'Roboto Condensed', sans-serif;
     margin: 4px 0 0 0;
     width: 118px;
@@ -363,19 +363,19 @@ h2 {
     cursor: pointer;
 }
 
-.buttons--add-to-cart {
+.button--add-to-cart {
     background-color: #a200b8;
     border-color: #a200b8;
     color: #ffffff;
 }
 
-.buttons:hover {
+.button:hover {
     color: #a200b8;
     border-color: currentColor;
     background-color: #ffffff;
 }
 
-.buttons:active {
+.button:active {
     transform: translateY(1px);
     filter: saturate(150%);
 }
